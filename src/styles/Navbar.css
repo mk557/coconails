@@ -1,0 +1,53 @@
+.navbar {
+    background-color: white !important;
+    box-shadow: none;
+    height: 100px; /* Adjust the height as needed */
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-logo {
+    margin-bottom: 10px;
+    height: 30px; /* Increase this value to make the logo bigger */
+    margin-right: auto; /* Pushes logo to the left */
+    display: block;
+  }
+  
+  .navbar-toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .navbar-buttons-container {
+    margin-left: auto; /* This ensures the buttons are pushed to the right */
+    display: flex;
+    gap: 20px; /* Adjust the gap between the buttons */
+  }
+  
+  .navbar-buttons {
+    color: #333 !important;
+    margin-top: 10px; /* Adjust margin to bring buttons down */
+    font-size: 16px;
+  }
+  
+  @media (min-width: 768px) {
+    .desktop-menu {
+      display: flex; /* Show desktop menu items */
+    }
+    .mobile-menu-icon {
+      display: none !important; /* Ensure hamburger icon is hidden on desktop */
+    }
+  }
+  
+  /* Show mobile menu and hide desktop menu on smaller screens */
+  @media (max-width: 767px) {
+    .desktop-menu {
+      display: none; /* Hide desktop menu items */
+    }
+    .mobile-menu-icon {
+      display: block !important; /* Show the hamburger icon for mobile */
+      color: #ffffff; /* Set icon color to white */
+    }
+  }

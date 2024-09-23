@@ -1,0 +1,112 @@
+.footer {
+    background-color: white; /* White background for the footer */
+    padding: 20px 0; /* Space inside the footer */
+    border-top: 1px solid #ddd; /* Optional: Adds a light border on top */
+    display: flex; /* Use flexbox to align items */
+    justify-content: center; /* Center the content horizontally */
+    align-items: flex-start; /* Align items to the top */
+    flex-direction: column; /* Stack items vertically */
+  }
+  
+  .footer-container {
+    display: flex; /* Use flexbox to align items */
+    justify-content: center; /* Center items horizontally */
+    width: 100%; /* Full width of the footer */
+  }
+  
+  .footer-left {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: flex-start; /* Align items to the left */
+    margin-right: auto; /* Push this section to the left */
+  }
+  
+  .footer-logo {
+    /* margin-bottom: -20px; */
+    padding-bottom: 200 0px;
+    line-height: 0px;
+    margin-top: -80px;
+    /* margin: -220px 0; Space around the logo */
+    height: 30px; /* Adjust height to make the logo smaller */
+    width: auto; /* Maintain aspect ratio */
+  }
+  
+  .footer-text {
+    color: black; /* Black font color for all footer text */
+    margin-bottom: 5px; /* Space below each text item */
+    font-size: 14px !important; /* Adjust font size if needed */
+  }
+  
+
+.footer-item {
+    margin-bottom: 5px; /* Space between each item */
+  }
+  .footer-heading {
+    font-weight: bold; /* Make heading text bold */
+    text-decoration: underline; /* Underline the heading text */
+    font-size: 15px !important; /* Adjust font size if needed */
+  }
+  
+  .footer-value {
+    margin-left: 5px; /* Space between the heading and value */
+    font-size: 14px !important; /* Adjust font size if needed */
+
+  }
+  
+  .footer-hours {
+    margin-left: 5px; /* Space between the heading and value */
+    font-size: 14px !important; /* Adjust font size if needed */
+
+  }
+  .logo-container {
+    display: flex; /* Use flexbox to center the logo */
+    justify-content: center; /* Center the logo horizontally */
+    width: 100%; /* Full width of the container */
+  }
+  
+  .copyright-text {
+    margin-top: -40px !important; /* Adjust this value to bring text higher */
+  }
+
+/* Mobile-specific styles */
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column; /* Stack items vertically on mobile */
+    align-items: center; /* Center items */
+    text-align: center; /* Center text */
+  }
+
+  .footer-left {
+    margin-bottom: 20px; /* Add spacing between sections */
+  }
+
+  .footer-text {
+    font-size: 1rem; /* Adjust font size for mobile */
+  }
+
+  .footer-heading {
+    font-size: 1.1rem; /* Slightly reduce heading size */
+  }
+
+  .footer-logo {
+    max-width: 150px; /* Reduce logo size on mobile */
+    height: auto;
+    margin-top: 0px;
+  }
+
+  .footer-hours {
+    display: none; /* Hide hours on mobile */
+  }
+  .footer-text:has(.footer-heading:contains('HOURS')) {
+    display: none; /* Hide the HOURS section on mobile */
+  }
+  .logo-container {
+    text-align: center; /* Center the logo */
+    margin-top: 15px;
+  }
+
+  .copyright-text {
+    margin-top: 10px;
+    font-size: 0.85rem; /* Slightly smaller text on mobile */
+  }
+}

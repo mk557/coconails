@@ -1,0 +1,79 @@
+/* src/styles/App.css */
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff; /* White background */
+  color: #333333; /* Dark text for contrast */
+  min-height: 100vh; /* Ensure body takes full viewport height */
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: transparent; /* Transparent background for header */
+  padding: 20px 0;
+  position: fixed; /* Fixed position for the header */
+  width: 100%;
+  top: 0;
+  left: 0;
+  box-shadow: none; /* No shadow */
+  z-index: 1000; /* Ensure the header stays on top */
+}
+
+
+.container {
+  padding: 0; /* Remove default padding */
+  margin: 0;  /* Remove default margin */
+  max-width: 100%; /* Allow full width of the viewport */
+}
+
+footer {
+  background-color: #333; /* Dark background color for footer */
+  color: #fff; /* Light text color for contrast */
+  padding: 20px;
+  text-align: center;
+  width: 100%; /* Full width */
+  box-sizing: border-box; /* Include padding and border in the element's total width */
+  position: relative; /* Relative positioning to prevent overlap */
+  margin-top: auto; /* Push footer to the bottom */
+}
+
+/* Responsive adjustments for container */
+@media (max-width: 768px) {
+  .container {
+    padding: 60px 15px 15px; /* Adjust padding for smaller screens */
+  }
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+/* Responsive adjustments for hero text */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2.5rem; /* Adjust font size for tablets */
+  }
+}
+
+.hero p {
+  font-size: 1.5rem;
+}
+
+/* Responsive adjustments for hero paragraph */
+@media (max-width: 768px) {
+  .hero p {
+    font-size: 1.2rem; /* Adjust font size for tablets */
+  }
+}
+
+* {
+  box-sizing: border-box; /* Ensure all elements include padding and border in total width */
+  margin: 0;
+  padding: 0;
+}
+
