@@ -10,17 +10,6 @@ const ServiceCategory = styled(Paper)(({ theme }) => ({
   boxSizing: 'border-box',
 }));
 
-const ColumnsContainer = styled(Box)(({ theme }) => ({
-  display: 'flex',
-  justifyContent: 'space-between', // Ensure columns are spaced evenly
-  gap: theme.spacing(4), // Adjust spacing between columns
-  marginTop: theme.spacing(4), // Add spacing above the columns
-}));
-
-const Column = styled(Box)(({ theme }) => ({
-  flex: 1,
-  maxWidth: 'calc(40% - 16px)', // Ensure columns take up 50% of the width minus spacing
-}));
 const scrollToTop = () => {
   window.scrollTo({ top: 0, behavior: 'smooth' });
 };

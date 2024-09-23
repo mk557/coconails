@@ -11,15 +11,6 @@ const ServiceCategory = styled(Paper)(({ theme }) => ({
   // Ensure consistent box-sizing
   boxSizing: 'border-box',
 }));
-
-const GridItem = styled(Grid)(({ theme }) => ({
-  display: 'flex',
-  justifyContent: 'center',
-  // Ensure each grid item takes up equal space
-  flexBasis: 'calc(20% - 16px)', // Adjust spacing
-  maxWidth: 'calc(20% - 16px)', // Adjust spacing
-}));
-
 const scrollToTop = () => {
   window.scrollTo({ top: 0, behavior: 'smooth' });
 };
