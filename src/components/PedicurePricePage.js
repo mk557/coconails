@@ -51,17 +51,17 @@ const PedicurePricePage = () => {
                   }}
                 >
                   {[
-                    { name: 'Standard Pedicure', price: '$28' },
+                    { name: 'Standard Pedicure', price: '$28+' },
                     { name: 'Gel Pedicure', price: '$49' },
-                    { name: 'Paraffin Pedicure', price: '$35' },
+                    { name: 'Paraffin Pedicure', price: '$45' },
                     { name: 'Keratin Pedicure', price: '$45' },
-                    { name: 'Purisma Organic Spa', price: '$75' },
-                    { name: 'Eucalyptus Spa', price: '$65' },
-                    { name: 'Coco Deluxe Spa', price: '$55' },
+                    { name: 'Purisma Organic Spa', price: '$79' },
+                    { name: 'Eucalyptus Spa', price: '$69' },
+                    { name: 'Coco Deluxe Spa', price: '$59' },
                     { name: 'Green Tea Spa', price: '$55' },
                     { name: 'Polish Change', price: '$20' },
-                    { name: 'Callus Elimination', price: '$10' },
-                    { name: 'Foot Reflexology (10min)', price: '$55' },
+                    { name: 'Callus Elimination', price: '$15' },
+                    { name: 'Foot Reflexology (10min)', price: '$15' },
                   ].map(({ name, price }) => (
                     <Box 
                       key={name} 
