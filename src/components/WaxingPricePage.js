@@ -57,7 +57,7 @@ const WaxingPricePage = () => {
                     { name: 'Chin', price: '$15' },
                     { name: 'Side Burn', price: '$20' },
                     { name: 'Face', price: '$50' },
-                    { name: 'Bikini', price: '30+' },
+                    { name: 'Bikini', price: '$30+' },
                     { name: 'Brazilian', price: '$50+' },
                     { name: 'Under Arms', price: '$25' },
                     { name: 'Half Arms', price: '$30' },
