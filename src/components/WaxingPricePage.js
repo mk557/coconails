@@ -52,8 +52,8 @@ const WaxingPricePage = () => {
                   }}
                 >
                   {[
-                    { name: 'Eyebrow', price: '$12' },
-                    { name: 'Lip', price: '$10' },
+                    { name: 'Eyebrow', price: '$13' },
+                    { name: 'Lip', price: '$12' },
                     { name: 'Chin', price: '$15' },
                     { name: 'Side Burn', price: '$20' },
                     { name: 'Face', price: '$50' },
